@@ -1,0 +1,9 @@
+# Local indexes and machine-specific generated files.
+/graphify-out/
+/.agents/skills/graphify/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example

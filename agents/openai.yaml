@@ -1,0 +1,4 @@
+interface:
+  display_name: "Set up development"
+  short_description: "Prepare repositories for agent development"
+  default_prompt: "Use $set-up-development to prepare this repository for development with Codex, preserving existing instructions and project settings."

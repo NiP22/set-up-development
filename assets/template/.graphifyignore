@@ -1,0 +1,9 @@
+# Index the target's maintained code and documentation, not developer dependencies.
+/graphify-out/
+/.agents/
+/.codex/
+/docs/skills/
+/.venv/
+/node_modules/
+/build/
+/dist/

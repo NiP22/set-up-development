@@ -1,0 +1,13 @@
+# Project-scoped subagents; keep the main agent's model unchanged.
+# https://learn.chatgpt.com/docs/config-file/config-reference
+[agents]
+default_subagent_model = "gpt-6.1-sol"
+default_subagent_reasoning_effort = "high"
+
+[agents.worker]
+description = "Реализация, сложная диагностика, архитектурный анализ и содержательное ревью."
+config_file = "agents/worker.toml"
+
+[agents.scout]
+description = "Точечный поиск, чтение логов, извлечение фактов и простая сверка файлов без правок."
+config_file = "agents/scout.toml"

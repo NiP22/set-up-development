@@ -1,0 +1,10 @@
+[project]
+name = "set-up-development"
+version = "0.1.0"
+description = "Portable Codex skill for repository development setup"
+requires-python = ">=3.11"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+exclude = ["assets/vendor"]
